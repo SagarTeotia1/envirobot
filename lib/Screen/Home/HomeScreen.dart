@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:envirobot/Const/const_colo.dart';
+import 'package:envirobot/Screen/Discover/DiscoverScreen.dart';
 import 'package:envirobot/Screen/Guide/GuideScreen.dart';
 import 'package:envirobot/Screen/Profile/ProfileScreen.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // Define a list of widgets (pages) to show based on the index
   final List<Widget> _pages = [
     GuideScreen(),
-    Container(color: Colors.green,),
+    Discoverscreen(),
     ProfileScreen()
 
 
@@ -27,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Map<String, dynamic>> _navigationItems = [
     {'icon': Icons.accessibility, 'label': 'AI Guide '},
-    {'icon': Icons.groups, 'label': 'Social'},
+    {'icon': Icons.groups, 'label': 'Discover'},
     {'icon': Icons.person, 'label': 'You'},
   ];
 
