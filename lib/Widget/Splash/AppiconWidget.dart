@@ -15,7 +15,7 @@ class AppIconWidget extends StatelessWidget {
       ),
       padding: EdgeInsets.all(15), // Space between the image and the border
       child: Image.asset(
-        'assets/images/logo.jpg',
+        'assets/images/APPENVIRO-removebg-preview.png',
         fit: BoxFit.cover,
       ),
     );

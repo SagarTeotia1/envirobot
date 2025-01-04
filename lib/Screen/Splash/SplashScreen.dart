@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   AppIconWidget(),
                   const SizedBox(height: 15),
                   Text(
-                    "AccessWay",
+                    "EnviroBot",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -59,7 +59,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: AnimatedTextKit(
                       animatedTexts: [
                         TypewriterAnimatedText(
-                          "Accessibility in Motion, Everywhere You Go",
+                          "Guiding a Greener Tomorrow, One Step at a Time.",
                           speed: const Duration(milliseconds: 100),
                           textStyle: TextStyle(
                             fontSize: 24,

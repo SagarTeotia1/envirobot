@@ -28,18 +28,18 @@ class PostPage extends StatelessWidget {
                   postCard(
                     title: "Unforgettable Memories",
                     visitorName: "Jane Smith",
-                    profileImage: 'assets/images/profile2.jpg',
-                    reviewText: "Walking under the Eiffel Tower was magical!",
-                    imagePath: 'assets/images/effiletrip.jpg',
+                    profileImage: 'assets/images/Sagar.jpg',
+                    reviewText: "Particpating a Composite Campiagn",
+                    imagePath: 'assets/images/zero.png',
                     onLikePressed: () => print("Liked: Unforgettable Memories"),
                     onFollowPressed: () => print("Followed: Jane Smith"),
                   ),
                   postCard(
                     title: "Historical Wonders",
                     visitorName: "Alex Johnson",
-                    profileImage: 'assets/images/profile3.jpg',
-                    reviewText: "The Great Pyramid of Giza left me speechless.",
-                    imagePath: 'assets/images/pyramidtrip.jpg',
+                    profileImage: 'assets/images/Sagar.jpg',
+                    reviewText: "Travelling Turkery Dispite of Disability",
+                    imagePath: 'assets/images/turkey.jpg',
                     onLikePressed: () => print("Liked: Historical Wonders"),
                     onFollowPressed: () => print("Followed: Alex Johnson"),
                   ),
@@ -180,7 +180,7 @@ class PostPage extends StatelessWidget {
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
                                 ),
-                                backgroundColor: Colors.green,
+                                backgroundColor: Colors.blue,
                                 padding: const EdgeInsets.symmetric(
                                     vertical: 8, horizontal: 10),
                               ),
