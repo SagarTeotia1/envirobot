@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                   const SizedBox(height: 25),
                   // Animated Text using AnimatedTextKit
-                  SizedBox(
+                  SizedBox(    
                     width: MediaQuery.of(context).size.width *
                         0.8, // Set width to avoid text overflow
                     child: AnimatedTextKit(
